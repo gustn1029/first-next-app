@@ -1,0 +1,19 @@
+@charset 'utf-8';
+
+.reviewList{
+    max-width: 600px; width: 100%;
+    display: grid; margin: 0 auto 50px;
+    grid-template-columns: 100%;
+    column-gap: 30px;
+    row-gap: 50px;
+}
+.reviewListItem article{
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1);
+    transition: all 0.3s
+}
+.reviewListItem:hover article{
+    transform: scale(1.03);
+}
